@@ -44,7 +44,7 @@ Partner pack note (2026-10-17 fix pass): `corporate-identity/` (the 2024 positiv
 - `g1obals_white_glasses_logo_cmyk.ai` (`1wrBluyow1FPomj0v3SxH42zgArRBNrrS`, 1.06 MB) and its three CMYK PDFs: same reason (not link-shared, too large for the connector).
 - Legacy `Logo_GSTF_White/Black.png` (`1q8JR13VVaA7mh7ymavtpTsgMqUJ0RFxA`, `1q8lBMBLu68nVg9SPFPwvqHRiIys5eQiZ`, mariopaladini@): not link-shared.
 
-## 2. Derived logos — `logos/derived/` (40 files: 20 SVG + 20 PNG, PNG 2000 px wide, transparent)
+## 2. Derived logos — `logos/derived/` (41 files: 20 SVG + 20 PNG, PNG 2000 px wide, transparent, plus `globals-share-card-1200x630.png`, the gold-on-dark lockup on plain black for link previews)
 
 All built by Inkscape from `vectors/LogoClubGLOBALS.pdf` (`1OYzlabS6j4I7-_ZVw1tWfnv_Qq5bDo3u`) unless stated. Ink normalised to `#000000` (the master mixes `#000000` and `#231F20`). Poppler's rectangular clip groups removed; viewBox tight to the art, no padding.
 
@@ -158,4 +158,4 @@ One file name convention throughout: `globals-<mark>-<variant>.<ext>` in kebab-c
 
 ## 9. Zip
 
-`2026-10-17_globals-brand-assets.zip` at the pack root holds everything above except nothing: no source file exceeds 20 MB (largest is the 2.5 MB EPS), so no exclusions were needed.
+`2026-10-17_globals-brand-assets.zip` at the pack root (rebuilt 2026-10-17 fix pass, 87 files) holds everything above except `logos/src/corporate-identity/`, `logos/src/gstf/legacy/` and `logos/src/legacy-2012-tree/`, which are internal reference only (ch. 2 Do-not 8). Public mirror with byte-identical derived files: https://github.com/clubglobals-new/globals-brand-assets (used as the upload hop for the globals.co media library).
