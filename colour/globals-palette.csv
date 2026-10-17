@@ -1,0 +1,10 @@
+name,hex,R,G,B,C,M,Y,K,role
+Pure black,#000000,0,0,0,0,0,0,100,Primary background (dark sections); text on light. The canvas black.
+Global gold,#C69300,198,147,0,0,26,100,22,"THE brand accent: logo knot on dark, premium highlights. As text on light only via gold-text #876500."
+Global sky,#6FCBF1,111,203,241,54,16,0,5,"Spectrum colour: fills and chips only, never text."
+Global green,#96E7BE,150,231,190,35,0,18,9,Spectrum colour; brand green = the green of the glasses.
+Global citric,#FC611E,252,97,30,0,62,88,1,"CTAs, links, arrows on dark; on light a fill only; as text via citric-text #C03C03."
+Global duck,#FFCB3F,255,203,63,0,20,75,0,Spectrum colour (warm yellow). Never text.
+Global baby,#F2C7CA,242,199,202,0,18,17,5,Spectrum colour (soft pink); the rule line on black.
+Light grey,#EAEBEA,234,235,234,0,0,0,8,"Light section backgrounds (the ""method"" canvas)."
+Pure white,#FFFFFF,255,255,255,0,0,0,0,Text on dark; cards on light grey.

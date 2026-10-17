@@ -1,0 +1,213 @@
+{
+  "brand": "GLOBALS",
+  "source": "BrandKit.pdf p.5 (Drive 19MtRZGg-8l_Nu97Ha7pSPoTp0lXyHBDN); hex is the only colour model the kit gives",
+  "generated": "2026-10-17",
+  "cmyk_note": "CMYK is a naive sRGB conversion (K=1-max(R,G,B)/255; C=(1-R/255-K)/(1-K) etc.), rounded to whole percent. NOT a press-ready value: no ICC profile, no Pantone. A print designer must proof it.",
+  "derived_text_variants": {
+    "gold-text": "#876500",
+    "citric-text": "#C03C03",
+    "citric-hover-dark": "#FF7A3D",
+    "citric-hover-light": "#E8530F"
+  },
+  "solids": [
+    {
+      "name": "Pure black",
+      "hex": "#000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "cmyk_naive": [
+        0,
+        0,
+        0,
+        100
+      ],
+      "role": "Primary background (dark sections); text on light. The canvas black.",
+      "contrast_on_black": 1.0,
+      "contrast_on_white": 21.0,
+      "contrast_on_light_grey": 17.57
+    },
+    {
+      "name": "Global gold",
+      "hex": "#C69300",
+      "rgb": [
+        198,
+        147,
+        0
+      ],
+      "cmyk_naive": [
+        0,
+        26,
+        100,
+        22
+      ],
+      "role": "THE brand accent: logo knot on dark, premium highlights. As text on light only via gold-text #876500.",
+      "contrast_on_black": 7.57,
+      "contrast_on_white": 2.77,
+      "contrast_on_light_grey": 2.32
+    },
+    {
+      "name": "Global sky",
+      "hex": "#6FCBF1",
+      "rgb": [
+        111,
+        203,
+        241
+      ],
+      "cmyk_naive": [
+        54,
+        16,
+        0,
+        5
+      ],
+      "role": "Spectrum colour: fills and chips only, never text.",
+      "contrast_on_black": 11.49,
+      "contrast_on_white": 1.83,
+      "contrast_on_light_grey": 1.53
+    },
+    {
+      "name": "Global green",
+      "hex": "#96E7BE",
+      "rgb": [
+        150,
+        231,
+        190
+      ],
+      "cmyk_naive": [
+        35,
+        0,
+        18,
+        9
+      ],
+      "role": "Spectrum colour; brand green = the green of the glasses.",
+      "contrast_on_black": 14.47,
+      "contrast_on_white": 1.45,
+      "contrast_on_light_grey": 1.21
+    },
+    {
+      "name": "Global citric",
+      "hex": "#FC611E",
+      "rgb": [
+        252,
+        97,
+        30
+      ],
+      "cmyk_naive": [
+        0,
+        62,
+        88,
+        1
+      ],
+      "role": "CTAs, links, arrows on dark; on light a fill only; as text via citric-text #C03C03.",
+      "contrast_on_black": 6.87,
+      "contrast_on_white": 3.06,
+      "contrast_on_light_grey": 2.56
+    },
+    {
+      "name": "Global duck",
+      "hex": "#FFCB3F",
+      "rgb": [
+        255,
+        203,
+        63
+      ],
+      "cmyk_naive": [
+        0,
+        20,
+        75,
+        0
+      ],
+      "role": "Spectrum colour (warm yellow). Never text.",
+      "contrast_on_black": 13.87,
+      "contrast_on_white": 1.51,
+      "contrast_on_light_grey": 1.27
+    },
+    {
+      "name": "Global baby",
+      "hex": "#F2C7CA",
+      "rgb": [
+        242,
+        199,
+        202
+      ],
+      "cmyk_naive": [
+        0,
+        18,
+        17,
+        5
+      ],
+      "role": "Spectrum colour (soft pink); the rule line on black.",
+      "contrast_on_black": 13.8,
+      "contrast_on_white": 1.52,
+      "contrast_on_light_grey": 1.27
+    },
+    {
+      "name": "Light grey",
+      "hex": "#EAEBEA",
+      "rgb": [
+        234,
+        235,
+        234
+      ],
+      "cmyk_naive": [
+        0,
+        0,
+        0,
+        8
+      ],
+      "role": "Light section backgrounds (the \"method\" canvas).",
+      "contrast_on_black": 17.57,
+      "contrast_on_white": 1.2,
+      "contrast_on_light_grey": 1.0
+    },
+    {
+      "name": "Pure white",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "cmyk_naive": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "Text on dark; cards on light grey.",
+      "contrast_on_black": 21.0,
+      "contrast_on_white": 1.0,
+      "contrast_on_light_grey": 1.2
+    }
+  ],
+  "gradients": [
+    {
+      "id": "grad-1",
+      "corners": "green / baby / duck",
+      "css": "radial-gradient(130% 170% at 0% 0%,#96E7BE 0%,rgba(150,231,190,0) 58%),radial-gradient(130% 170% at 0% 100%,#F2C7CA 0%,rgba(242,199,202,0) 58%),linear-gradient(90deg,#F5C886 0%,#FFCB3F 78%)",
+      "file": "gradient-1.png"
+    },
+    {
+      "id": "grad-2",
+      "corners": "citric / duck / baby",
+      "css": "radial-gradient(130% 170% at 0% 0%,#FC611E 0%,rgba(252,97,30,0) 58%),radial-gradient(130% 170% at 0% 100%,#FFCB3F 0%,rgba(255,203,63,0) 58%),linear-gradient(90deg,#F8C680 0%,#F2C7CA 78%)",
+      "file": "gradient-2.png"
+    },
+    {
+      "id": "grad-3",
+      "corners": "baby / sky / green",
+      "css": "radial-gradient(130% 170% at 0% 0%,#F2C7CA 0%,rgba(242,199,202,0) 58%),radial-gradient(130% 170% at 0% 100%,#6FCBF1 0%,rgba(111,203,241,0) 58%),linear-gradient(90deg,#92D7D1 0%,#96E7BE 78%)",
+      "file": "gradient-3.png"
+    }
+  ],
+  "gradient_text": {
+    "grad-2-text": "linear-gradient(92deg,#FC611E 0%,#FB9337 30%,#F7C681 62%,#F2C7CA 100%)",
+    "on-tour-text": "linear-gradient(90deg,#FC611E 0%,#F2C7CA 38%,#FFCB3F 62%,#FFCB3F 100%)"
+  },
+  "banned": [
+    "#FF5A1F (historical wrong orange)",
+    "#D64303 (rejected, 3.77:1 on grey)"
+  ]
+}
