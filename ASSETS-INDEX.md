@@ -6,6 +6,8 @@ Verification key: ✔ = opened and checked visually at full size (PNG) or struct
 
 ## 1. Source masters — `logos/src/` (28 files)
 
+Partner pack note (2026-10-17 fix pass): `corporate-identity/` (the 2024 positive/negative PNGs banned by ch. 2 Do-not 8), `gstf/legacy/` and `legacy-2012-tree/` stay in this internal tree for reference only; they are excluded from the partner zip, the Drive pack folder and the public mirror.
+
 | Path | What it is | Source Drive id | Format | Colour mode | Intended use | Verified |
 |---|---|---|---|---|---|---|
 | `vectorized-logos/Logo_ClubGLOBALS.ai` | **Multi-logo sheet** (Illustrator 25.4, title "Logo_Globals23", 1191×994 pt): Club GLOBALS stacked, circular, line and "Networking for tech business" variants, plus GLOBALS Homes, GLOBALS Jobs, Welcome Day and AiRelo Assistant lockups | `1PPclOdvWn8394wxXGCcBj6eVH2a6oxik` | AI (PDF-compatible) | RGB vector | Master archive; the only place the Homes/Jobs/Welcome Day marks were found | ◐ rendered at 40 dpi; sheet, not a single logo |
